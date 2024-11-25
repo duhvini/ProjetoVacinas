@@ -1,0 +1,63 @@
+Teste Prático: Controle de Estoque de Vacinas
+Objetivo: Avaliar a capacidade do candidato em:
+* Compreender e analisar requisitos funcionais.
+* Modelar dados em um banco de dados relacional.
+* Escrever código PL/SQL eficiente e bem estruturado.
+* Elaborar uma especificação funcional concisa e clara.
+Cenário:
+Uma clínica de vacinação precisa de um sistema para gerenciar o seu estoque de vacinas.
+O sistema deve permitir:
+* Cadastrar novos tipos de vacinas, incluindo nome, fabricante, data de validade e
+quantidade em estoque.
+* Registrar a entrada de novas doses de vacinas no estoque.
+* Registrar a saída de doses de vacinas ao aplicar uma vacina em um paciente.
+* Consultar o estoque de cada tipo de vacina.
+* Gerar relatórios sobre o vencimento de vacinas.
+Tarefas:
+1. Análise de requisitos e modelagem de dados:
+* Elabore um diagrama entidade-relacionamento (ER) simplificado para representar as
+entidades e seus relacionamentos. Considere as seguintes entidades: Vacina, Entrada de
+Vacina, Saída de Vacina.
+* Crie um script SQL para criar as tabelas correspondentes ao diagrama ER, definindo os
+campos e suas respectivas restrições (tipos de dados, chaves primárias, chaves
+estrangeiras).
+2. Desenvolvimento PL/SQL:
+* Procedure para cadastro de vacina: Crie uma procedure que receba como parâmetros
+os dados de uma nova vacina e a inclua na tabela correspondente.
+* Procedure para registro de entrada de vacina: Crie uma procedure que receba como
+parâmetros o código da vacina e a quantidade de doses e atualize a quantidade em
+estoque.
+* Procedure para registro de saída de vacina: Crie uma procedure que receba como
+parâmetros o código da vacina e a quantidade de doses aplicadas e atualize a quantidade
+em estoque.
+* Function para consultar estoque: Crie uma function que receba como parâmetro o
+código da vacina e retorne a quantidade em estoque.
+* Procedure para gerar relatório de vencimento: Crie uma procedure que gere um
+relatório (pode ser um cursor ou uma tabela temporária) com as vacinas que estão próximas
+do vencimento (por exemplo, com menos de 30 dias de validade).
+3. Especificação funcional:
+* Elabore uma especificação funcional concisa e clara para o sistema, descrevendo as
+funcionalidades implementadas, os fluxos de dados e as interfaces com o usuário (mesmo
+que de forma simplificada).
+Critérios de avaliação:
+* Corretude do código: O código deve funcionar corretamente e atender aos requisitos.
+* Eficiência: O código deve ser otimizado para evitar consultas desnecessárias e garantir
+um bom desempenho.
+* Estrutura: O código deve ser bem organizado e fácil de entender, utilizando comentários
+para explicar as lógicas.
+* Especificação funcional: A especificação deve ser clara, completa e fácil de entender.
+* Modelagem de dados: O diagrama ER e as tabelas devem representar adequadamente os
+dados do sistema.
+Tempo: 60 minutos
+Observações:
+* O candidato pode utilizar qualquer ferramenta de desenvolvimento de sua preferência.
+* O foco do teste é avaliar a capacidade de raciocínio lógico, a habilidade de escrever
+código PL/SQL e a compreensão dos conceitos de banco de dados.
+* A complexidade do código pode variar de acordo com o nível de experiência do candidato.
+Dicas para o candidato:
+* Leia atentamente os requisitos e entenda o problema como um todo.
+* Comece pela modelagem de dados, definindo as entidades e seus relacionamentos.
+* Escreva o código de forma clara e concisa, utilizando comentários para explicar as lógicas.
+* Teste o código para garantir que ele funcione corretamente.
+* Revise a especificação funcional para verificar se todas as funcionalidades foram
+descritas.
